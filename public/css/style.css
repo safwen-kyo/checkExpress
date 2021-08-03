@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    background: url('/img/no.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 0 0 85% / 30% ;
+}
+.nav{
+    float :right;
+    display: block;
+}
+.nav > li {
+    display: inline-block;
+    margin: 20px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color: white;
+}
+.nav > li > a :hover{
+    color: black;
+    background-color:coral;
+}
+header{
+    top: 0;
+    left: 0;
+}
+.logo{
+    height: 20px;
+    float: left;
+    padding: 20px;
+}
+.logo > a {
+    text-decoration: none;
+    color: white;
+}
+ .overlay{
+     width:100%;
+     height: 100%;
+     min-height: 100vh;
+     padding: 50px;
+     color: white;
+     text-shadow: 1px 1px 1px #333 ;
+     background-image: linear-gradient(135deg,#9f05ff69 10% , #fd5e086b 100%);
+     border-radius: 0 0 85% / 30% ;
+ }
+ button{
+     border: none;
+     padding: 20px 35px;
+     border-radius: 20px;
+     color: white;
+     background :linear-gradient(135deg,#9f05ff69 10% , #fd5e086b 100%);
+     position: absolute;
+     top: 490px;
+     left: 250px;
+     margin-bottom: 0px;
+     box-shadow: 0 3px 20px white ;
+     
+    }
+button:hover{
+    cursor:pointer;
+}
+h1{
+    position: absolute;
+    top :350px;
+    left:220px;
+
+}
+p{
+    position: absolute;
+    top: 390px;
+    left:220px;
+    text-align: justify;
+    padding-right: 490px;
+    
+}
+h3{
+    position: absolute;
+    top: 390px;
+    left:220px;
+    text-align: justify;
+    padding-right: 490px;
+    padding-top: 50px;
+}
+ form{
+     margin: 10px;
+     padding: 20px;
+ }
+
+img{
+    width: 300px;
+    position: absolute;
+    top: 400px;
+    left:220px;
+
+}
